@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Test Email Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action="https://formspree.io/mandy.alber@gmail.com" method="post">
+      <fieldset>
+        <legend>Contact Form</legend>
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name" required/>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" required/>
+        <label for="message">Message:</label>
+        <textarea id="message" name="name" maxlength="500"required></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </fieldset>
+    </form>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

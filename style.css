@@ -1,0 +1,33 @@
+form {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  display: block;
+  padding: 5%;
+}
+
+fieldset {
+  border: 2px solid darkgray;
+  padding: 3%;
+}
+
+legend {
+  padding: 1%;
+}
+
+form input,
+form textarea {
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: darkgray;
+  border: none;
+  color: white;
+}
+
